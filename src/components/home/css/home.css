@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'DINNext Bold';
+  src: url(../../../assets/fonts/DINNextW1G-Bold.otf);
+}
+@font-face {
+  font-family: 'DINNext Regular';
+  src: url(../../../assets/fonts/DINNextW1G-Regular.otf);
+}
+@font-face {
+  font-family: 'Valorant';
+  src: url(../../../assets/fonts/Valorant\ Font.ttf);
+}
+
+* {
+  font-family: 'DINNext Bold';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  border: none;
+}
+
+body {
+  background-color: #1F2326;
+}
+
+/*------------- Header -------------*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  background: linear-gradient(90deg, #FF4656 0%, #992A34 100%);
+  height: 10vh;
+  width: 100%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 1.2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: #ffbdbd;
+}
+
+.containerPesquisa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #FF4656;
+  background: #C33844;
+}
+
+.inputPesquisa {
+  background: #C33844;
+  outline: none;
+  font-size: 1rem;
+  color: #ffbdbd;
+  padding: 5px;
+}
+
+.btnPesquisa {
+  cursor: pointer;
+  background-color: #FF4656;
+  padding: 5px;
+}
