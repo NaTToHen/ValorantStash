@@ -82,7 +82,7 @@ header {
 
 .secDestaques {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 90px;
   width: 80%;
 }
 
@@ -95,5 +95,15 @@ header {
 /*------------- Geral -------------*/
 
 .containerArmas {
-  
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.cardArma {
+  border: 2px solid #FF4656;
+  background: #191C1E;
+  height: 215px;
+  width: 190px;
 }

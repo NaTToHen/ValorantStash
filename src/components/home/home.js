@@ -12,6 +12,9 @@ function Home(props) {
         <h1 className='h1Destaques'>DESTAQUES</h1>
         <div className='containerArmas'>
           <CardArma />
+          <CardArma />
+          <CardArma />
+          <CardArma />
         </div>
       </section>
     </main>
