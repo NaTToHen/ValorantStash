@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'DINNext Bold';
-  src: url(../../../assets/fonts/DINNextW1G-Bold.otf);
+  src: url(../assets/fonts/DINNextW1G-Bold.otf);
 }
 @font-face {
   font-family: 'DINNext Regular';
-  src: url(../../../assets/fonts/DINNextW1G-Regular.otf);
+  src: url(../assets/fonts/DINNextW1G-Regular.otf);
 }
 @font-face {
   font-family: 'Valorant';
-  src: url(../../../assets/fonts/Valorant\ Font.ttf);
+  src: url(../assets/fonts/Valorant\ Font.ttf);
 }
 
 * {
@@ -31,8 +31,8 @@ header {
   justify-content: space-between;
   padding: 0 10%;
   background: linear-gradient(90deg, #FF4656 0%, #992A34 100%);
-  height: 10vh;
   width: 100%;
+  height: 90px;
 }
 
 .logo {
@@ -76,4 +76,24 @@ header {
   cursor: pointer;
   background-color: #FF4656;
   padding: 5px;
+}
+
+/*------------- Destaques -------------*/
+
+.secDestaques {
+  margin: auto;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.h1Destaques {
+  color: #FF4656;
+  font-family: "Valorant";
+  font-weight: 300;
+}
+
+/*------------- Geral -------------*/
+
+.containerArmas {
+  
 }

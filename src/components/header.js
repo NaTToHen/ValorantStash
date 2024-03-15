@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './home/css/home.css';
+import '../global/global.css';
 
 import logo from '../assets/img/logo.svg'
 import pesquisa from '../assets/img/pesquisa.svg'
@@ -10,16 +10,16 @@ function Header(props) {
       <Link to="/"><img src={logo} /></Link>
 
       <nav className="navBar">
-        <Link to="/" style={{ textDecoration: 'none' }}>
+        <Link to="/" style={{textDecoration: 'none'}}>
           <a className="navLink" href="">INICIO</a>
         </Link>
-        <Link to="/armas" style={{ textDecoration: 'none' }}>
+        <Link to="/armas" style={{textDecoration: 'none'}}>
           <a className="navLink" href=''>ARMAS</a>
         </Link>
-        <Link to="/facas" style={{ textDecoration: 'none' }}>
+        <Link to="/facas" style={{textDecoration: 'none'}}>
           <a className="navLink" href=''>FACAS</a>
         </Link>
-        <Link to="/sobre" style={{ textDecoration: 'none' }}>
+        <Link to="/sobre" style={{textDecoration: 'none'}}>
           <a className="navLink" href=''>SOBRE</a>
         </Link>
 
