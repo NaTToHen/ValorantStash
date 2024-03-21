@@ -111,17 +111,17 @@ header {
   width: 80%;
 }
 
-.adsbygoogle {
-  background: black;
-  height: 100%;
+/*------------- Anuncios -------------*/
+
+.vertical {
+  background-image: url(../assets/img/anuncioexemplo2.png);
   padding-top: 50px;
   width: 20%;
 }
 
-.adsbygoogle.horizontal {
-  background: black;
+.horizontal {
+  background-image: url(../assets/img/anuncioexemplo1.png);
   margin: auto;
-  max-height: 150px;
   margin-top: 70px;
   width: 80%;
 }
@@ -273,6 +273,7 @@ header {
 .secBotoes button {
   background-color: #FF4656;
   cursor: pointer;
+  padding-top: 4px;
   width: 340px;
   height: 55px;
   font-size: 2em;

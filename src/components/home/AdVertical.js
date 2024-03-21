@@ -12,7 +12,7 @@ const AdVertical = (props) => {
 
    return (
       <>
-         <ins class="adsbygoogle"
+         <ins class="adsbygoogle vertical"
             style={{ display: "block" }}
             data-ad-client="ca-pub-3472920569845227"
             data-ad-slot={props.dataAdSlot}

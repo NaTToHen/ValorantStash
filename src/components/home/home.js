@@ -25,15 +25,17 @@ function Home(props) {
           <CardArma />
           <CardArma />
         </div>
+
         <AdVertical
           dataAdSlot="1947963685"
         />
+
       </section>
 
       <h1 className='h1Titulo'>novas skins</h1>
 
       <section className='secNovos'>
-        <img className='fotoBundle' src="https://valostashimg.s3.sa-east-1.amazonaws.com/banners/LoudBundle.svg" alt="" />
+        <img className='fotoBundle' src="https://valostashimg.s3.sa-east-1.amazonaws.com/banners/bundleGlitchpop.webp" alt="" />
         <div className='infoBundle'>
           <h1 className='bundleTitulo'>VCT x LOUD Capsule</h1>
           <div className='containerBundle'>
