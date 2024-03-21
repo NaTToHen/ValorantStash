@@ -27,9 +27,12 @@ body {
 
 header {
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
   padding: 0 10%;
+  top: 0px;
+  z-index: 1;
   background: linear-gradient(90deg, #FF4656 0%, #992A34 100%);
   width: 100%;
   height: 90px;
@@ -80,6 +83,10 @@ header {
 
 /*------------- Destaques -------------*/
 
+.containerHome {
+  margin-top: 140px;
+}
+
 .secDestaques {
   margin: auto;
   display: flex;
@@ -111,6 +118,14 @@ header {
   width: 20%;
 }
 
+.adsbygoogle.horizontal {
+  background: black;
+  margin: auto;
+  max-height: 150px;
+  margin-top: 70px;
+  width: 80%;
+}
+
 /*------------- Card -------------*/
 
 .cardArma {
@@ -131,6 +146,16 @@ header {
 .fotoArmaCard {
   margin-top: 30%;
   padding: 5px;
+}
+
+.nomeArmaCard {
+  color: #C4C4C4;
+  margin: auto;
+  margin-top: 15%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
 }
 
 .dadosCard {
@@ -162,7 +187,94 @@ header {
 
 .valorSkinCard {
   color: white;
+  padding-top: 5px;
   font-size: 1.7em;
 }
 
 /*------------- Novas skins -------------*/
+
+.secNovos {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.fotoBundle {
+  max-width: 680px;
+}
+
+.bundleTitulo {
+  color: #FF4656;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+}
+
+.infoBundle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 20px;
+  max-height: 300px;
+}
+
+.containerBundle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.valorBundle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.valorBundle .valorSkinCard {
+  font-size: 2.1em;
+}
+
+.nivelSkinBundle, .imgValorantPoints {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.btnVerMais {
+  margin-top: 60px;
+  cursor: pointer;
+  background-color: #FF4656;
+  color: white;
+  font-size: 1.8em;
+  padding: 8px;
+  padding-top: 12px;
+  width: 150%;
+}
+
+.btnVerMais:hover, .secBotoes button:hover {
+  transform: scale(1.01);
+}
+
+/*------------- Botoes de pagina -------------*/
+
+.secBotoes {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 80%;
+}
+
+.secBotoes button {
+  background-color: #FF4656;
+  cursor: pointer;
+  width: 340px;
+  height: 55px;
+  font-size: 2em;
+  color: white;
+}
