@@ -2,10 +2,12 @@
   font-family: 'DINNext Bold';
   src: url(../assets/fonts/DINNextW1G-Bold.otf);
 }
+
 @font-face {
   font-family: 'DINNext Regular';
   src: url(../assets/fonts/DINNextW1G-Regular.otf);
 }
+
 @font-face {
   font-family: 'Valorant';
   src: url(../assets/fonts/Valorant\ Font.ttf);
@@ -136,6 +138,7 @@ header {
   border: 2px solid #FF4656;
   background: #191C1E;
   min-height: 215px;
+  max-height: 215px;
   min-width: 190px;
 }
 
@@ -144,14 +147,14 @@ header {
 }
 
 .fotoArmaCard {
-  margin-top: 30%;
+  margin: auto;
   padding: 5px;
 }
 
 .nomeArmaCard {
   color: #C4C4C4;
   margin: auto;
-  margin-top: 15%;
+  margin-bottom: 30%;
   font-size: 20px;
   font-style: normal;
   font-weight: 750;
@@ -236,7 +239,8 @@ header {
   font-size: 2.1em;
 }
 
-.nivelSkinBundle, .imgValorantPoints {
+.nivelSkinBundle,
+.imgValorantPoints {
   max-width: 40px;
   max-height: 40px;
 }
@@ -252,7 +256,8 @@ header {
   width: 150%;
 }
 
-.btnVerMais:hover, .secBotoes button:hover {
+.btnVerMais:hover,
+.secBotoes button:hover {
   transform: scale(1.01);
 }
 
@@ -278,4 +283,36 @@ header {
   height: 55px;
   font-size: 2em;
   color: white;
+}
+
+/*------------- rodapé -------------*/
+
+.rodape {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #191C1E;
+}
+
+.rodape p {
+  color: #FFF;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+}
+
+.rodape h3 {
+  color: #0F1113;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "DIN Next W1G";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
 }

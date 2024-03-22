@@ -20,6 +20,7 @@ function Home(props) {
           <CardArma />
           <CardArma />
           <CardArma />
+
           <CardArma />
           <CardArma />
           <CardArma />
@@ -63,6 +64,11 @@ function Home(props) {
         <Link to="/sub-metraladoras"><button>SUB-METRALADORAS</button></Link>
         <Link to="/escopetas"><button>ESCOPETAS</button></Link>
       </section>
+
+      <footer className='rodape'>
+        <p>Valorantstash.com é um site de fãs não oficial de Valorant 2020-2024 da Riot Games, inc. Qualquer logotipo associado são de marcas comerciais, marcas de serviço e/ou marcas registradas da Riot Games, inc.</p>
+        <h3>Hen.Bonatto</h3>
+      </footer>
 
     </main>
   )
