@@ -148,6 +148,8 @@ header {
 
 .fotoArmaCard {
   margin: auto;
+  max-width: 170px;
+  max-height: 100px;
   padding: 5px;
 }
 
@@ -256,11 +258,6 @@ header {
   width: 150%;
 }
 
-.btnVerMais:hover,
-.secBotoes button:hover {
-  transform: scale(1.01);
-}
-
 /*------------- Botoes de pagina -------------*/
 
 .secBotoes {
@@ -285,6 +282,13 @@ header {
   color: white;
 }
 
+.btnVerMais:hover,
+.secBotoes button:hover {
+  background-color: #ffffff;
+  transition: ease-in-out 0.2s;
+  color: #FF4656;
+}
+
 /*------------- rodapé -------------*/
 
 .rodape {
@@ -306,7 +310,7 @@ header {
   line-height: normal;
 }
 
-.rodape h3 {
+.rodape a {
   color: #0F1113;
   text-align: center;
   margin-bottom: 20px;
@@ -315,4 +319,5 @@ header {
   font-style: normal;
   font-weight: 750;
   line-height: normal;
+  text-decoration: none;
 }

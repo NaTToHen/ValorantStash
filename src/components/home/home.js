@@ -16,7 +16,15 @@ function Home(props) {
 
       <section className='secDestaques'>
         <div className='containerArmas'>
-          <CardArma />
+          <CardArma
+            id="7"
+            nome="Frenzy Glitchpop"
+            valor="1,725"
+            fotoURL="https://valostashimg.s3.sa-east-1.amazonaws.com/armas/glitchpop/glitchpopFrenzy.webp"
+            categoria="pistola"
+            nivel="Exclusive"
+            nivelURL="https://valostashimg.s3.sa-east-1.amazonaws.com/assets/Exclusive.png"
+          />
           <CardArma />
           <CardArma />
           <CardArma />
@@ -36,15 +44,15 @@ function Home(props) {
       <h1 className='h1Titulo'>novas skins</h1>
 
       <section className='secNovos'>
-        <img className='fotoBundle' src="https://valostashimg.s3.sa-east-1.amazonaws.com/banners/bundleGlitchpop.webp" alt="" />
+        <img className='fotoBundle' src="https://valostashimg.s3.sa-east-1.amazonaws.com/banners/BundleAbyssal.webp" alt="foto do bundle" />
         <div className='infoBundle'>
-          <h1 className='bundleTitulo'>VCT x LOUD Capsule</h1>
+          <h1 className='bundleTitulo'>Abyssal Collection</h1>
           <div className='containerBundle'>
-            <img className="nivelSkinBundle" src="https://valostashimg.s3.sa-east-1.amazonaws.com/assets/Exclusive.png" alt="arma" />
+            <img className="nivelSkinBundle" src="https://valostashimg.s3.sa-east-1.amazonaws.com/assets/Deluxe.png" alt="nivel" />
 
             <div className="valorBundle">
               <img className="imgValorantPoints" src="https://valostashimg.s3.sa-east-1.amazonaws.com/assets/valorantPoint.png" alt="arma" />
-              <p className="valorSkinCard">1,775</p>
+              <p className="valorSkinCard">5,100</p>
             </div>
 
           </div>
@@ -67,7 +75,7 @@ function Home(props) {
 
       <footer className='rodape'>
         <p>Valorantstash.com é um site de fãs não oficial de Valorant 2020-2024 da Riot Games, inc. Qualquer logotipo associado são de marcas comerciais, marcas de serviço e/ou marcas registradas da Riot Games, inc.</p>
-        <h3>Hen.Bonatto</h3>
+        <a href='https://henriquebonatto.com.br' target='_blank'>Hen.Bonatto</a>
       </footer>
 
     </main>
